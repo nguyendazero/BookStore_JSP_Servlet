@@ -18,7 +18,7 @@ public class JDBCUtil {
 			// Các thông số
 			String url = "jdbc:mySQL://localhost:3306/myweb?useUnicode=true&characterEncoding=UTF-8";
 			String username = "root";
-			String password = "";
+			String password = "root";
 			
 			// Tạo kết nối
 			c = DriverManager.getConnection(url, username, password);
